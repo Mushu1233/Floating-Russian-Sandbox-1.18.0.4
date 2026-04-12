@@ -1,4 +1,4 @@
-# Floating Sandbox
+# Floating Russian Sandbox
 A two-dimensional physics simulation written in C++.
 
 # Overview
