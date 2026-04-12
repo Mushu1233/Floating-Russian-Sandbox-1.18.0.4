@@ -4,7 +4,7 @@ A two-dimensional physics simulation written in C++.
 # Overview
 Floating Russian Sandbox is a realistic 2D physics simulator. It is essentially a particle system that uses mass-spring networks to simulate rigid bodies, with added thermodynamics, fluid dynamics, and basic electrotechnics. The simulation is mostly focused around ships floating on water, but you can build any kind of object using the integrated ShipBuilder and a database of over 1,000 different materials. Once you build an object you can punch holes into it, slice it, apply forces and heat, set it on fire, smash it with bomb explosions - anything you want. And when it starts sinking, you can watch it slowly dive its way into the abyss, where it will rot for eternity!
 
-<img src="https://i.imgur.com/c8fTsgY.png">
+<img width="1919" height="1079" alt="Снимок экрана 2026-04-12 110309" src="https://github.com/user-attachments/assets/d5a7b925-25d6-41a5-8199-487699753b5a" />
 
 The game is really a generic physics simulator that can be used to simulate just about any 2D floating rigid body under stress.
 
@@ -14,9 +14,8 @@ As of now the simulator implements the following aspects of physics:
 - Fluid dynamics - buoyancy, drag, hydrostatic and atmospheric pressure, wind
 - Basic electrotechnics - conductivity
 
-<img src="https://i.imgur.com/kovxCty.png">
-<img src="https://i.imgur.com/XHw3Jrl.png">
-
+<img width="1919" height="1079" alt="Снимок экрана 2026-04-12 110350" src="https://github.com/user-attachments/assets/b73392af-6f14-46a3-a4c0-ff29c04f3ea9" />
+<img width="1919" height="1079" alt="Снимок экрана 2026-04-12 110420" src="https://github.com/user-attachments/assets/ea490ab6-3da5-4a76-b2a8-0268eb0bed70" />
 The simulator comes with a built-in ShipBuilder that allows you to create ships by drawing individual particles choosing materials out of the game's library. Each material has its own physical properties, such as mass, strength, stiffness, water permeability, specific heat, sound properties, and so on. You can also create electrical layers with electrical materials (lamps, engines, generators, switches, etc.), layers with ropes, and texture layers for a final, high-definition look'n'feel of the ship.
 
 <img src="https://i.imgur.com/lSUj90c.png">
