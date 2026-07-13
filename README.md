@@ -1,3 +1,6 @@
+<img width="578" height="347" alt="unnamed" src="https://github.com/user-attachments/assets/23b053c1-0145-49f9-a1e5-9641a29e0dec" />
+
+
 # Floating Russian Sandbox
 A two-dimensional physics simulation written in C++.
 
